@@ -5,6 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
         BankAccount account1 = new BankAccount("Inimai", 1000);
+        BankAccount account2 = new BankAccount("Buddy", 2000);
+        account2.showBalance();
+        account2.deposit(1000);
+        account2.showBalance();
 
         account1.showBalance();
         System.out.println("-----------");
